@@ -1,0 +1,176 @@
+.navbar-custom {
+    background-color: #fbd754;
+    color: black;
+    border-color: #fbd754;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #F8F8F8;
+}
+
+footer img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.home-container {
+    background-image: linear-gradient( rgba(13, 19, 26, 0.4), rgba(13, 19, 26, 0.4)), url('/images/synthesio-0301.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.nav-tabs {
+    margin-top: 20px;
+}
+
+.long-btn {
+    width: 100%;
+    background-color: #fbd754;
+    border-color: #fbd754;
+}
+
+.admin-container {
+    min-height: 80vh;
+}
+
+.admin-form {
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+.thumbnail-home-page {
+    height: 280px;
+}
+
+.thumbnail-home-page:hover {
+    border: 1px solid #fbd754;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px lightgray;
+}
+
+.thumbnail-home-page a {
+    text-decoration: none;
+}
+
+.thumbnail-projects-page {
+    height: 300px;
+    position: relative;
+}
+
+.thumb-buttons {
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid lightgray;
+}
+
+.thumbnail-projects-page:hover {
+    border: 1px solid #fbd754;
+    box-shadow: 1px 1px 2px lightgray;
+}
+
+.thumbnail-projects-page .thumb-buttons {
+    display: none;
+    position: absolute;
+    background-color: #F8F8F8;
+}
+
+.thumbnail-projects-page:hover .thumb-buttons {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.font-10 {
+    font-size: 10px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.yellow-btn {
+    background-color: #fbd754;
+    color: black;
+    border-color: #fbd754;
+}
+
+.gray-btn {
+    background-color: gray;
+    color: white;
+    border-color: gray;
+}
+
+.hidden-content {
+    display: none;
+    border: 2px solid #fbd754;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.edit-form-buttons {
+    background-color: #F8F8F8;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-top: 1px solid lightgray;
+}
+
+.glyphicon {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.glyphicon-heart {
+    color: red;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.alert {
+    margin-top: 10px;
+}
+
+@media only screen and (min-width:768px) {
+    .navbar-nav li {
+        width: 110px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .logo {
+        margin-top: 10px;
+    }
+    .nav .oneRowLink {
+        padding-top: 25px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+    .logo img {
+        margin-left: 57px;
+        width: 40px;
+        margin-top: 5px;
+    }
+    .nav {
+        float: left;
+    }
+}
